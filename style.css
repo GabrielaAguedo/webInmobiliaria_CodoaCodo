@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/*HEADER*/
+.encabezado{
+    background-image: url(./img/header.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menuEncabezado{
+    display: flex;
+    margin: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+h4{
+    padding-left: 1rem;
+}
+
+.h1s {
+    margin: 0 0 5% 10%;
+}
+
+/*SOBRE NOSOTROS*/
+.acrk {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.nosotros {
+    width: auto;
+    display: flex;
+    margin: 0 10%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.items {
+    text-align: center;
+    padding: 2%;
+}
+
+.items-logos{
+    padding-bottom: 15%;
+    padding-top: 5%;
+}
+
+.items p {
+    padding-top: 10%;
+    font-size: medium;
+}
+
+/*CASAS VENTAS*/
+
+.txt_ventas {
+    text-align: center;
+}
+
+.ventas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+.mVentas {
+    display: flex;
+    margin: 0 10%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.casas {
+    border: 0.5px solid ;
+    border-color: darkgray;
+    width: 30%;
+    height: 80%;
+    margin-left: 2%;
+}
+
+.img__casas {
+    height: 50%;
+    width: 100%;
+}
+
+.casas_desc {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.casas_desc p {
+    padding: 2%;
+    margin-left: 3%;
+    margin-right: 5%;
+    font-size: 0.8rem;
+}
+
+.casas_desc h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.casas_desc p b {
+    color: rgb(113, 177, 31);
+}
+
+.casas__icon{
+    height: 4vh;
+    padding-top: 5%;
+    padding-left: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+
+.casas__icon p {
+    padding-right: 7%;
+    position: relative;
+    font-size: 0.8rem;
+}
+
+.btn__ver{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 2.5rem;
+    background-color: #DF8716;
+    border: 0;
+    color: white;
+    font-size: 0.75rem;
+}
+
+
+.btn__verT {
+    width: 15%;
+    height: 2.5rem;
+    background-color: rgb(113, 177, 31);
+    border: 0;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 1%;
+    margin: 2%;
+    margin-left: 82.5em;
+}
+
+/*CONTACTANOS*/
+
+.contactanos {
+    background-image: url(./img/encuentra.jpg);
+    height: 50vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contactanos h2{
+    margin: 0 13%;
+    margin-top: 5%;
+    
+}
+
+.contactanos p {
+    margin: 0 13%;
+    padding-top: 3%;
+}
+
+.btn__contact {
+    margin: 0 13%;
+    margin-top: 4%;
+    width: 10%;
+    height: 2.5rem;
+    background-color: #DF8716;
+    border: 0;
+    color: white;
+    font: 0.8em;
+}
+
+/*SECTION BLOG Y TESTIMONIAL*/
+
+.blogTestimonial {
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+    padding-top: 2%;
+}
+
+/*BLOG*/
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 50%;
+    padding-top: 3%;
+}
+
+.blog h2 {
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.nBlog {
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nBlog img{
+    width: 40%;
+    height: 40%;
+    
+}
+
+.nBlog__desc {
+    padding: 0 4%;
+}
+
+.nBlog__desc h3 {
+    padding-bottom: 2%;
+}
+
+hr {
+    height: 3px;
+    width: 33%;
+    background-color:rgb(113, 177, 31);
+    border: 0;
+    margin-bottom: 4%;
+}
+
+.nBlog__desc p {
+    margin-bottom: 4%;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.nBlog__desc b {
+    color: #DF8716;
+}
+
+/*TESTIMONIAL*/
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 70%;
+    padding-top: 3%;
+}
+
+.testimonial__img {
+    width: 3%;
+    position: absolute;
+}
+
+.testimonial_desc {
+    width: 100%;
+    margin-top: 10%;
+    background-color: rgb(113, 177, 31);
+    color: #fff;
+    border-radius: 5%;
+    padding: 6%;
+}
+
+.testimonial_desc p {
+    position: relative;
+    padding-left: 23%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    font-size: 1rem;
+    
+}
+
+.testimonial_desc b {
+    margin-left: 9em;
+}
+
+
+/*FOOTER*/
+
+.footer__piePag{
+    background-color: rgb(50, 50, 50);
+    height: 10vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.piePag{
+    display: flex;
+    margin: 0 9%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+}
